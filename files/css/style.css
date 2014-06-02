@@ -2,7 +2,7 @@ body {
 	font-family: 'Arimo', sans-serif;
 	color: #FFFFFF;
 }
-h1 {
+/*h1 {
 	font-family: 'Arimo', sans-serif;
 	color: 31F0B1;
 	margin-left: 50px;
@@ -10,7 +10,7 @@ h1 {
 	margin-bottom: 10px;
     padding: 1px;
 	font-size: 8em;
-}
+}*/
 h2 {
 	font-family: 'Arimo', sans-serif;
 	color: 31F0B1;
@@ -108,7 +108,7 @@ div.page_footer {
 }
 
 div.page_body {
-	width:80%;
+	width:400px;
 
 	margin-bottom: 5px;
 
