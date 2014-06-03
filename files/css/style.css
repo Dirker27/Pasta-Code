@@ -93,22 +93,25 @@ div.nav:hover { background-color: #000000; }
 
 div.centre {
 	display:block;
-	left-margin:auto;
-	right-margin:auto;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 div.page_header {
+	width:1000px;
+
 	margin-bottom: 5px;
 
 	background-color: #222222;
 }
 
 div.page_footer {
+	width:1000px;
 	background-color: #222222; 
 }
 
 div.page_body {
-	width:400px;
+	width:800px;
 
 	margin-bottom: 5px;
 
