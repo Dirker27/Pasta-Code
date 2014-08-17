@@ -1,6 +1,11 @@
-function load_content() {
-	//document.getElementById('page_header').innerHTML = 'Dynamic Header';
-	//document.getElementById('page_body').innerHTML = 'Dynamic Body';
-	//document.getElementById('page_footer').innerHTML = 'Dynamic Footer';
-	//$('target').innerHTML = "SUCK IT BITCH";
+function page_init() {
+	load_tab('home');
+}
+
+function load_body(i) {
+	$('page_body').innerHTML = $(i).innerHTML;
+}
+
+function load_tab(tab) {
+	load_body(tab + '_content');
 }
