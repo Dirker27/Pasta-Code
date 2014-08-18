@@ -36,7 +36,7 @@ function load_tab(tab) {
 	// Expand the body wrapper
 	var dh = (content.offsetHeight - body.offsetHeight) / 20;
 	var expandtimer = setInterval(function() {
-		if ( Math.abs(content.offsetHeight - body.offsetHeight) < 10 ) {
+		if ( Math.abs(content.offsetHeight - body.offsetHeight) < Math.abs(dh) ) {
 			body.style.height = content.offsetHeight + 'px';
 			clearInterval(expandtimer);
 		} else {
