@@ -140,22 +140,27 @@ div.page_header {
 	width: 1000px;
 	margin-bottom: 5px;
 	background-color: #222222;
+
+	border:1px dashed gray;
 }
 
 div.page_footer {
-	/*height: 30px;*/
+	height: 50px;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
 	background-color: #222222; 
+
+	border:1px dashed gray;
 }
 
 div.page_body {
 	position: relative;
 	width: 800px;
 	height: 100px;
-	padding-bottom: 30px;
 	background-color: #222222;
+
+	border:1px dashed red;
 }
 
 #content_layer {
