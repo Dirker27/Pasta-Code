@@ -65,6 +65,26 @@ thead {
 	font-size: 1.2em
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/** ---------------- Links and things --------------------*/
 a:link { color:#AA0000; }
 a:visited { color:#AA4444; }
 /*a:hover { font-weight: bold; text-decoration: none }*/
@@ -74,7 +94,6 @@ a.navlink:link { color:#AA0000; }
 a.navlink:visited { color:#AA4444; }
 a.navlink:hover { font-weight: bold; text-decoration: none }
 a.navlink:active { color:#FFFFFF; }
-
 /*li:hover { color:#000000; }*/
 
 .content {
@@ -112,33 +131,42 @@ div.centre {
 	margin-right: auto;
 }
 
+div.page_wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
 div.page_header {
 	width: 1000px;
-
 	margin-bottom: 5px;
-
 	background-color: #222222;
 }
 
 div.page_footer {
-	position: relative;
-	bottom: 0;
+	/*height: 30px;*/
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 	background-color: #222222; 
 }
 
 div.page_body {
+	position: relative;
 	width: 800px;
-
-	margin-bottom: 5px;
-
+	padding-bottom: 30px;
 	background-color: #222222;
 }
 
-/*p {
-	padding: 1px, 1px, 1px, 1px;
-}*/
-.split_column {
-	float: left;
-	width: 49.5%;
+#content_layer {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+
+#fade_layer {
+	position: absolute;
+	z-index: 2;
+	left:0;
+	top:0;
 }
