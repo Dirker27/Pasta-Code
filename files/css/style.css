@@ -65,6 +65,10 @@ thead {
 	font-size: 1.2em
 }
 
+p {
+	margin: 5px;
+}
+
 
 
 
@@ -141,7 +145,7 @@ div.page_header {
 	margin-bottom: 5px;
 	background-color: #222222;
 
-	border:1px dashed gray;
+	/*border:1px dashed gray;*/
 }
 
 div.page_footer {
@@ -151,7 +155,7 @@ div.page_footer {
 	bottom: 0;
 	background-color: #222222; 
 
-	border:1px dashed gray;
+	/*border:1px dashed gray;*/
 }
 
 div.page_body {
@@ -160,7 +164,35 @@ div.page_body {
 	height: 100px;
 	background-color: #222222;
 
-	border:1px dashed red;
+	border:1px solid black;
+}
+
+div.section {
+	width: auto;
+	margin: 15px;
+	border: 3px double gray;
+}
+
+div.section_title {
+	float: right;
+	width: 500px;
+	margin: 5px;
+}
+
+div.section_body {
+	float: right;
+	width: 500px;
+}
+
+div.section_icon {
+	float: left;
+	width: 150px;
+	margin: 5px;
+}
+
+img.section_icon {
+	max-width: 150px;
+	max-height: 250px;
 }
 
 #content_layer {
