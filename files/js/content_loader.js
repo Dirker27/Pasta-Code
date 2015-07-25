@@ -1,5 +1,6 @@
 function page_init() {
-	load_tab('home');
+	load_tab('music');
+	//$("#music_content").load("music_content.html");
 }
 
 function load_body(i) {
