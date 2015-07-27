@@ -1,19 +1,19 @@
 body {
 	font-family: 'Arimo', sans-serif;
-	color: #FFFFFF;
+	color: #F0F0F0;
 }
-/*h1 {
-	font-family: 'Arimo', sans-serif;
-	color: 31F0B1;
+h1 {
 	margin-left: 50px;
 	margin-top: 50px;
 	margin-bottom: 10px;
     padding: 1px;
-	font-size: 8em;
-}*/
+    
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    font-size: 4em;
+}
 h2 {
 	font-family: 'Arimo', sans-serif;
-	color: #31F0B1;
 	margin-left: 50px;
 	margin-top: 50px;
 	margin-bottom: 10px;
@@ -142,11 +142,9 @@ div.page_wrapper {
 
 div.page_header {
 	width: 1000px;
-    /*height: 400px;*/
 	margin-bottom: 5px;
-	/*background-color: #222222;*/
-    background-image: url("../img/background/periphery.jpg");
-	/*border:1px dashed gray;*/
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background/periphery.jpg');
+	border: 2px solid black;
 }
 
 div.page_footer {
@@ -167,6 +165,32 @@ div.page_body {
 	border:1px solid black;
 }
 
+
+/* Header Style */
+#name_drop {
+    float: left;
+    width: 650px;
+}
+#quote {
+    float: right;
+    margin: 10px 10px 10px 20px;
+    
+    font-style: italic;
+    font-size: 75%;
+    color: rgba(200, 200, 200, 0.75);
+}
+#quote_content {
+    float: top;
+    width: 300px;
+    
+    text-align: center;
+}
+#quote_source {
+    float: right bottom;
+    margin-top: 10px;
+    
+    text-align: right;
+}
 
 
 /* Sectional DIVs */
