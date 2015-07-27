@@ -1,6 +1,6 @@
 body {
 	font-family: 'Arimo', sans-serif;
-	color: #F0F0F0;
+	color: #C0C0C0;
 }
 h1 {
 	margin-left: 50px;
@@ -144,6 +144,7 @@ div.page_header {
 	width: 1000px;
 	margin-bottom: 5px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background/periphery.jpg');
+    background-size: cover;
 	border: 2px solid black;
 }
 
