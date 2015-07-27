@@ -142,14 +142,14 @@ div.page_wrapper {
 
 div.page_header {
 	width: 1000px;
+    /*height: 400px;*/
 	margin-bottom: 5px;
-	background-color: #222222;
-
+	/*background-color: #222222;*/
+    background-image: url("../img/background/periphery.jpg");
 	/*border:1px dashed gray;*/
 }
 
 div.page_footer {
-	height: 50px;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
@@ -167,33 +167,36 @@ div.page_body {
 	border:1px solid black;
 }
 
+
+
+/* Sectional DIVs */
 div.section {
 	margin: 15px 15px 15px 15px;
 	border: 3px double gray;
 }
-
 div.section_title {
 	float: right;
 	width: 500px;
 	margin: 5px;
 }
-
 div.section_body {
 	float: right;
 	width: 500px;
 }
-
 div.section_icon {
 	float: left;
-	width: 150px;
+	width: 200px;
 	margin: 5px;
 }
-
 img.section_icon {
-	width: 160px;
-	height: 90px;
+	max-width: 160px;
+    margin: 0px;
+    border: 2px solid black
 }
 
+
+
+/* Page Components */
 #content_layer {
 	position: absolute;
 	z-index: 0;

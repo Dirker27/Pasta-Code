@@ -1,8 +1,3 @@
-function page_init() {
-	load_tab('music');
-	//$("#music_content").load("music_content.html");
-}
-
 function load_body(i) {
 	$('fade_layer').style.opacity = $('content_layer').style.opacity;
 	$('fade_layer').innerHTML = $('content_layer').innerHTML;

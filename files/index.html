@@ -2,27 +2,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML PUBLIC>
 
-<html lang="en">
+<html lang="en_US">
 
-	
+
 	<head>
 		<title> Pasta Code: Looks like crap, and it works! (most of the ti-OHGODWHYISEVERYTHINGONFIRE?!?!?!?</title>
 		<!-- ================ JavaScript ======================== -->
-		<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
-        <script language="javascript" type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-		<script language="javascript" type="text/javascript" src="js/prototype.js"></script>
+        <script language="javascript" type="text/javascript" src="js/prototype.js"></script>
+        <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+        <script language="javascript" type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        
+        <script language="javascript" type="text/javascript" src="js/page_initializer.js"></script>
 		<script language="javascript" type="text/javascript" src="js/content_loader.js"></script>
-		<!--<script language="javascript" type="text/javascript">
-			$(function(){
-			    $("[data-load]").each(function(){
-			        $(this).load($(this).data("load"), function(){
-			        });
-			    });
-			})
-		</script>-->
 		<!-- ================ CSS =============================== -->
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 		<!-- ================ FavIcon =========================== -->
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	</head>
@@ -33,9 +28,9 @@
 		<div id="wrapper" class="page_wrapper">
 
 			<!-- ================ Header ============================ -->
-			<div class="page_header centre">
-				<h1> Dirk Hortensius </h1>
-			</div>
+			<div id="page_header" class="page_header centre">
+                &nbsp;
+            </div>
 
 			<!-- Navigation Links -->
 			<nav>
@@ -62,7 +57,7 @@
 			<!-- ================ Body ============================== -->
 			<div id="page_body" class="page_body centre">
 				<div id="content_layer">
-					&nbsp;
+                    &nbsp;
 				</div>
 
 				<div id="fade_layer">
@@ -71,15 +66,8 @@
 			</div>
 
 			<!-- ================ Footer ============================ -->
-			<div class="page_footer centre">
-				Oh shit, there's a bottom of this page...
-				<nav style="text-align: center">
-					<a href="#">Home</a>
-					|
-					<a href="#">About</a>
-					|
-					<a href="#">Contact</a>
-				</nav>
+			<div id="page_footer" class="page_footer centre">
+				&nbsp;
 			</div>
 
 		</div>
@@ -195,7 +183,7 @@
 			
 			<div id="lydia" class="section">
 				<div class="section_title">
-					<h3>Dante</h3>
+					<h3>Lydia</h3>
 				</div>
 				<div class="section_icon">
 					<img class="section_icon" src="img/gear/stomp.jpg" alt="DANTE">
@@ -208,7 +196,7 @@
 
 			<div id="brad" class="section">
 				<div class="section_title">
-					<h3>Dante</h3>
+					<h3>Brad</h3>
 				</div>
 				<div class="section_icon">
 					<img class="section_icon" src="img/gear/stomp.jpg" alt="DANTE">
@@ -221,7 +209,7 @@
 
 			<div id="ivan" class="section">
 				<div class="section_title">
-					<h3>Dante</h3>
+					<h3>Ivan</h3>
 				</div>
 				<div class="section_icon">
 					<img class="section_icon" src="img/gear/stomp.jpg" alt="DANTE">
