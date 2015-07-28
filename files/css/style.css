@@ -13,27 +13,29 @@ h1 {
     font-size: 4em;
 }
 h2 {
-	font-family: 'Arimo', sans-serif;
-	margin-left: 50px;
-	margin-top: 50px;
-	margin-bottom: 10px;
-    padding: 1px;
-	font-size: 6em;
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+    
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+	font-size: 3em;
 }
 h3 {
-	font-family: 'Arimo', sans-serif;
-	margin-left: 70px;
+	margin-left: 75px;
 	margin-bottom: 5px;
 	margin-top: 10px;
-    padding: 5px;
 	font-size: 2em;
+    
+    font-family: 'Arimo', sans-serif;
 }
 h4 {
-	font-family: 'Arimo', sans-serif;
 	margin-left: 70px;
 	margin-top: 5px;
 	margin-bottom: 30px;
     padding: 5px;
+    
+    font-family: 'Arimo', sans-serif;
 }
 
 table {
@@ -101,6 +103,7 @@ a.navlink:active { color:#FFFFFF; }
 /*li:hover { color:#000000; }*/
 
 .content {
+    width: 100%;
 	padding-left: 2px;
 	padding-right: 2px;
 	padding-top: 2px;
@@ -129,7 +132,7 @@ div.nav {
 }
 div.nav:hover { background-color: #000000; }
 
-div.centre {
+.centre {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -196,6 +199,7 @@ div.page_body {
 
 /* Sectional DIVs */
 div.section {
+    width: auto;
 	margin: 15px 15px 15px 15px;
 	border: 3px double gray;
 }
