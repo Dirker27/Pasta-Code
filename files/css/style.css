@@ -44,32 +44,39 @@ h1.centre, h2.centre, h3.centre, h4.centre {
 }
 
 table {
-    width:90%;
-    border-top:1px solid #AEF0DD;
-    border-right:1px solid #AEF0DD;
-	border-left:1px solid #AEF0DD;
-	border-bottom:1px solid #AEF0DD;
-    margin:1em auto;
-    border-collapse:collapse;
-	background-color: #FFFFFF;
-	color: #151828;
+    width: 90%;
+    margin: 1em auto;
+    border-top: 1px solid #777;
+    border-right :1px solid #777;
+	border-left: 1px solid #777;
+	border-bottom: 1px solid #777;
+    border-collapse: collapse;
+	background-color: rgba(34, 34, 34, 0.5);
+	color: #C0C0C0;
 }
 
 td {
-    padding:.3em 1em;
-    text-align:center;
-	border-bottom:1px solid #AEF0DD;
+    padding: 0.3em 1em;
+    text-align: center;
+	border-bottom: 1px solid #777;
+    border-left: 1px solid #777;
+}
+td ul {
+    text-align: left;  
+}
+td a:hover {
+    color: #CC1111;
+    text-decoration: none;
 }
 
 tr:nth-child(even) {
-    background-color: #E0F8F1;
+    background-color: rgba(51, 51, 51, 0.5);
 }
 
 thead {
 	font-family: 'Arimo', sans-serif;
 	padding: 6px 6px 6px 12px;
-	background-color: #E0F8F1;
-	font-size: 1.2em
+	background-color: rgba(51, 51, 51, 0.5);
 }
 
 p {
@@ -99,12 +106,12 @@ html, body {
 a:link { color:#AA0000; }
 a:visited { color:#AA4444; }
 /*a:hover { font-weight: bold; text-decoration: none }*/
-a:active { color:#FFFFFF; }
+a:active { color:#D0D0D0; }
 
 a.navlink:link { color:#AA0000; }
 a.navlink:visited { color:#AA4444; }
 a.navlink:hover { font-weight: bold; text-decoration: none }
-a.navlink:active { color:#FFFFFF; }
+a.navlink:active { color:#D0D0D0; }
 /*li:hover { color:#000000; }*/
 
 div.layer {
@@ -136,7 +143,7 @@ div.nav {
 
 	/* Apparently this is FLEXBOX (research warranted) */
 	display: flex;
-	justify-content:center; /*horizontal*/
+	justify-content: center; /*horizontal*/
 	align-items: center;    /*vertical*/
 }
 div.nav:hover { background-color: #000000; }
@@ -247,4 +254,15 @@ img.section_icon {
 	z-index: 1;
 	left:0;
 	top:0;
+}
+
+
+/* ------------------ About ------------------------------*/
+#about_the_author {
+    /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/badge/silhouette.jpg');
+    background-size: cover;*/
+}
+#about_the_site {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/badge/pasta_src.jpg');
+    background-size: cover;
 }
