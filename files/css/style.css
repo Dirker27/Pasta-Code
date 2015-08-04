@@ -161,8 +161,9 @@ div.page_wrapper {
 
 div.page_header {
 	width: 1000px;
+    height: 350px;
 	margin-bottom: 5px;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background/periphery.jpg');
+    /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background/periphery.jpg');*/
     background-size: cover;
 	border: 2px solid black;
 }
@@ -186,7 +187,7 @@ div.page_body {
 }
 
 
-/* Header Style */
+/* ------------------ Header ---------------------------- */
 #name_drop {
     float: left;
     width: 650px;
